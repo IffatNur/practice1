@@ -1,0 +1,102 @@
+body {
+    margin: 0%;
+    
+}
+
+h1,
+h2 {
+    font-family: 'Pacifico', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Splash', cursive;
+    font-size: 35px;
+}
+
+.top-banner span {
+    color: goldenrod;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.913);
+    font-size: x-large;
+}
+
+button {
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: none;
+    background-image: linear-gradient(white, rgb(116, 7, 249));
+    box-shadow: 10px 10px 30px rgb(41, 1, 41);
+}
+
+.top-banner {
+    display: flex;
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+}
+
+.half-width {
+    width: 50%;
+
+}
+
+.half-width p {
+    text-align: left;
+    padding-bottom: 5%;
+    font-size: 23px;
+}
+
+.head {
+    padding-left: 5%;
+    width: 40%;
+}
+
+.half-width img {
+    width: 800px;
+    margin: 0;
+}
+
+.mid-banner {
+    display: flex;
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+}
+
+.mid-box {
+    border-radius: 30px;
+    width: 20%;
+    box-shadow: 3px 5px 25px rgb(1, 236, 253);
+    padding: 2%;
+    margin-left: 7%;
+    margin-bottom: 100px;
+}
+
+.mid-box h2 {
+    color: darkorange;
+}
+
+.mid-box img {
+    width: 100%;
+    height: 150px;
+    border: 5px dashed rgb(152, 1, 253);
+}
+.last-part{
+    text-align: center;
+    display: flex;
+    margin-left: 27%;
+    box-shadow: 5px 10px 20px gray;
+    width: 700px;
+    justify-content: center;
+}
+.last-part img{
+    width: 100px;
+    text-align: center;
+}
+.contact{
+    padding: 5%;
+}
+footer{
+    text-align: center;
+    padding: 2%;
+}
